@@ -6,7 +6,7 @@ export class HelloCdkStack extends cdk.Stack {
     super(scope, id, props);
 
     // The code that defines your stack goes here
-    new s3.Bucket(this ,'My first bucket', {
+    new s3.Bucket(this ,'Mybootcampbucket', {
       versioned: true
     })
   }
